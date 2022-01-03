@@ -293,136 +293,68 @@ li {
     flex-direction: column;
   }
 }
-.company-footer {
-  margin-top: 17.99%;
-}
 
-.cp-section {
-  max-width: 1360px;
-  margin: 0 auto;
-  padding-top: 60px;
-  padding-right: 45px;
-  padding-left: 45px;
+/* company */
+#company{
+  max-width: 600px;
 }
-
-/* コンテナー */
-.company {
-  margin-right: auto;
-  padding: 20px 40px;
-}
-
-.cp-container-small {
-  max-width: 750px;
-}
-
-/* テキスト */
-.cp-text {
-  margin: 0;
-  font-size: 0.875rem;
-  line-height: 1.5;
-  color: #707070;
-}
-
-* + .cp-text {
-  margin: 16px 0 0 0;
-}
-
-/* フォームリセット ボタン */
-.cp-riset-submit {
-  display: inline-block;
-  margin: 0;
-  padding: 0 32px;
-  font-size: 16px;
-  line-height: 38px;
-  border-radius: 3px;
-  border: 1px solid #707070;
-  transition: 0.2s ease-in-out;
-  color: #707070;
-  background-color: #fff;
-  background-image: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.cp-riset-submit:hover,
-.cp-riset-submit:focus {
-  outline: none;
-}
-
-.cp-riset-submit:hover {
-  color: #fff;
-  background: #707070;
-}
-
-@media screen and (max-width: 599px) {
-  /* セクション */
-  .cp-section {
-    padding: 40px 0;
-  }
-
-  /* コンテナー */
-  .p-container {
-    padding-right: 15px;
-    padding-left: 15px;
-  }
-}
-/* お問合せ確認 ------------------------------*/
-.cp-contactVerification01__table {
-  width: 100%;
-  margin-top: 32px;
-}
-
-/* アイテム */
-.cp-contactVerification01__item:not(:nth-child(1)) {
-  border-top: 1px solid #ADADAD;
-}
-
-.cp-contactVerification01__title,
-.cp-contactVerification01__text {
-  padding: 12px 16px;
-  line-height: 1.5;
-  color: #707070;
-}
-
-.cp-contactVerification01__title {
-  width: 30%;
-  text-align: left;
-  font-weight: bold;
-}
-
-.cp-contactVerification01__text {
-  width: 70%;
-}
-
-.cp-contactVerification01__buttons {
+#company dl{
   display: flex;
-  justify-content: center;
-  margin-top: 40px;
+  flex-wrap: wrap;
 }
 
-.cp-contactVerification01__button:not(:last-child) {
-  margin-right: 40px;
+#company dt{
+  width: 30%;
+  border-bottom: 1px solid #DCDBDB;
+  padding: 20px 10px;
 }
 
-@media screen and (max-width: 599px) {
-  .cp-contactVerification01__title,
-.cp-contactVerification01__text {
-    display: block;
+#company dt:last-of-type{
+  border-bottom: none;
+}
+
+#company dd{
+  width: 70%;
+  border-bottom: 1px solid #DCDBDB;
+  padding: 20px 10px;
+}
+#company dd:last-of-type{
+  border-bottom: none;
+}
+
+
+
+
+#company .map{
+          -webkit-filter: grayscale(1);
+                  filter: grayscale(1);
+}
+
+#company .map iframe{
+  width: 100%;
+  height: 300px;
+  border:0;
+}
+
+@media screen and (max-width: 900px) {
+  #company dl{
+    flex-direction: column;
+  }
+
+  #company dt {
     width: 100%;
+    border-bottom: none;
+    padding-bottom: 5px;
+  }
+  #company dd {
+    width: 100%;
+    border-bottom: none;
+    padding-top: 5px;
   }
 
-  .cp-contactVerification01__title {
-    padding: 8px 16px 4px;
-  }
+  
+}
 
-  .cp-contactVerification01__text {
-    padding: 4px 16px 8px;
-  }
-}
-.map {
-  margin-top: 40px;
-  margin-bottom: 126px;
-}
 
 #item {
   display: flex;
@@ -477,4 +409,4 @@ text-align: justify;
     width: 100%;
     margin-bottom: 30px;
   }
-}/*# sourceMappingURL=style.css.map */
+}}
